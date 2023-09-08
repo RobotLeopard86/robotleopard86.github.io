@@ -1,7 +1,6 @@
 logs
 *.log
 node_modules
-build
 .svelte-kit
 *.local
 .vscode
