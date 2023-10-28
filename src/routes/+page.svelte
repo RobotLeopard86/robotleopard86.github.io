@@ -1,2 +1,1 @@
-<h1>Welcome to the RobotLeopard86 website!</h1>
-<h3>Pardon our mess, something big is coming!</h3>
+<h1 class="text-lime-500 text-3xl">Something cool is coming...</h1>
