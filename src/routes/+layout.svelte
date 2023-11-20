@@ -1,6 +1,6 @@
 <script lang="ts">
   	import "../app.postcss";
-	import { Navbar, NavBrand, NavUl, NavLi, CloseButton, Drawer, Sidebar, SidebarBrand, SidebarDropdownWrapper, SidebarGroup, SidebarWrapper, SidebarDropdownItem } from "flowbite-svelte";
+	import { Navbar, NavBrand, NavUl, NavLi, CloseButton, Drawer, Sidebar, SidebarGroup, SidebarWrapper, Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-svelte";
 	import { BarsOutline, HomeSolid, UserCircleOutline } from "flowbite-svelte-icons";
 	import MainMenuItem from "$lib/MainMenuItem.svelte";
 	import { cubicInOut } from "svelte/easing";
@@ -42,6 +42,11 @@
 </Drawer>
 
 <slot />
+
+<Footer class="absolute bottom-0 left-0 z-20 w-full bg-neutral-900">
+	<FooterCopyright href="/" by="RobotLeopard86" year={ 2023 } />
+	<span class="text-gray-400 font-light">Created using SvelteKit</span>
+</Footer>
 
 <style lang="postcss">
 	:global(html){
